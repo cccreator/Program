@@ -1,4 +1,4 @@
-5.3	客户端和服务端的消息结构说明
+﻿5.3	客户端和服务端的消息结构说明
 struct msg_t{
 	unsigned char head[4];
 	char body[1024];
@@ -71,6 +71,3 @@ msg.head[2] :2消息目的（目的用户ID号）（整数）
 head[3] :暂时保留
 body[1024]:"你好"
 服务端端通过TCPsocket将msg发送到ID2对应的客户端
-5.5	server，client设计构架
- 
-5.6	多线程并发与epoll的应用说明

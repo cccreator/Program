@@ -1,4 +1,4 @@
-﻿5.3	客户端和服务端的消息结构说明
+﻿1-1	客户端和服务端的消息结构说明
 struct msg_t{
 	unsigned char head[4];
 	char body[1024];
@@ -14,7 +14,7 @@ struct msg_t{
 1、status用户状态消息
 2、sys系统消息
 
-5.4	消息说明
+1-2	消息说明
 消息结构
 struct msg_t{
 	unsigned char head[4];
